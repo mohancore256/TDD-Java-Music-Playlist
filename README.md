@@ -20,7 +20,9 @@ We will begin our TDD practice by completing the following user stories that wil
 For example:
 
 2 Heads - Coleman Hell 3:32
+
 Lightning Crashes - Live 5:25
+
 Stars - Hum 5:09
 
 ## Additional Resources
