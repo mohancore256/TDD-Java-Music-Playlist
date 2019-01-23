@@ -15,7 +15,10 @@ We will begin our TDD practice by completing the following user stories that wil
 3. Given that I remove a song from the playlist with execution of `removeSong(Song song)` then I expect the songlist to have been updated with the removal of that song.
 4. Given that I  move a song in my playlist to a new location utlizing `moveSong(Song song, int newIndex)` ,  then I expect the playlist order to have been rearranged accordingly.
 5. Given I have a playlist with songs, when I check the total playlist length with `getPlaylistDuration()` , I expect the duration to reflect the sum of the durations of all the songs on the playlist.
-1. Given I have a playlist with songs, when I want to see the playlist with `getPrettyPlaylist()`, I expect to see the playlist in the format `Title - Artist mm:ss`.  For example:
+1. Given I have a playlist with songs, when I want to see the playlist with `getPrettyPlaylist()`, I expect to see the playlist in the format `Title - Artist mm:ss`.  
+
+For example:
+
 `2 Heads - Coleman Hell 3:32
  Lightning Crashes - Live 5:25
  Stars - Hum 5:09`
