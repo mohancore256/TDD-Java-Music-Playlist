@@ -1,6 +1,6 @@
 # TDD-Java-Music-Playlist
 
-We will begin our TDD practice by completing the following user stories that will shape the Playlist class for a Music Playlist app.  One pair should be the driver and Write the JUnit test first, run it, and watch it fail (Red). Switch drivers and let the other pair write just enough code to make the test pass (Green).  Then refactor the code if possible (Refactor).
+We will begin our TDD practice by completing the following user stories that will shape the Playlist class for a Music Playlist app.  One pair should be the driver and write the JUnit test first, run it, and watch it fail (Red). Switch drivers and let the other pair write just enough code to make the test pass (Green).  Then refactor the code if possible (Refactor).
 
 ## User Story:
 
