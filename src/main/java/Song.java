@@ -35,9 +35,5 @@ public class Song{
 	public void setDuration(Duration length) {
 		this.length = length;
 	}
-	public String getDurationPretty() {
-		long s  = length.toMillis()/1000;
-		return String.format("%d:%02d:%02d", s / 3600, (s % 3600) / 60, (s % 60));
-	}
 	
 }
