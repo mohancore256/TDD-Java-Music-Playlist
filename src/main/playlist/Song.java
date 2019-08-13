@@ -1,4 +1,4 @@
-package main.java;
+package playlist;
 
 import java.time.Duration;
 
@@ -35,5 +35,9 @@ public class Song{
 	public void setDuration(Duration length) {
 		this.length = length;
 	}
-	
+
+	public String getDurationPretty() {
+		long sec = length.getSeconds();
+		return String.format("%d:%02d:%02d",sec/3600, (sec-(sec/3600))/60, (sec%60));
+	}
 }
